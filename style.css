@@ -30,7 +30,7 @@ ul{
 .first{
     display: flex;
     flex-direction: column;
-    flex: 0 1 800px;
+    flex: 0 1 1000px;
 }
 
 .header,
@@ -54,7 +54,7 @@ ul{
     justify-content: center;
     gap: 16px;
     padding: 16px;
-    flex: 0 1 368px;
+    flex: 0 1 468px;
 }
 
 .header-logo,
