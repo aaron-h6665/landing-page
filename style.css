@@ -4,9 +4,17 @@ body {
 
 ul{
     list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    gap: 12px;
+
 }
 
 .header{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 1 800px;
 }
 
