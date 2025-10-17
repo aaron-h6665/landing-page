@@ -33,17 +33,18 @@ ul{
     flex: 0 1 800px;
 }
 
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 16px;
-}
-
+.header,
 .header-body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header{
+    padding: 16px;
+}
+
+.header-body{
     flex-grow: 1;
 }
 
@@ -51,20 +52,22 @@ ul{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 8px;
+    gap: 16px;
     padding: 16px;
     flex: 0 1 368px;
 }
 
-.header-logo{
-    font-size: 24px;
+.header-logo,
+.title{
     color:#F9FAF8;
+    font-weight: 900;
 }
 
+.header-logo{
+    font-size: 24px;
+}
 .title{
     font-size: 48px;
-    font-weight: 900;
-    color: #F9FAF8;
 }
 
 .signup-button{
