@@ -3,6 +3,11 @@ body {
     box-sizing: content-box;
 }
 
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
 img{
     padding: 16px; 
 }
@@ -63,8 +68,12 @@ ul{
 }
 
 .signup-button{
-    width: 64px;
+    width: 90px;
     height: auto;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    padding: 4px 16px;
+    border-radius: 8px;
 }
 
 .subtitle,
