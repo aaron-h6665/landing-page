@@ -21,21 +21,36 @@ ul{
 }
 
 .first-container,
-.second-container{
+.second-container,
+.third-container{
     display: flex;
     justify-content: center;
-    height: 400px;
+    height: auto;
 }
 
 .first-container{
     background-color: #1F2937;
 }
 
+.third-container{
+    background-color: #E5E7EB;
+}
+
 .first,
-.second{
+.second,
+.quote-container{
     display: flex;
     flex-direction: column;
+}
+
+.first,
+.second{
     flex: 0 1 1000px;
+}
+
+.quote-container{
+    flex: 0 1 600px;
+    padding: 36px;
 }
 
 .header,
@@ -43,10 +58,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.header{
-    padding: 16px;
+    padding: 16px
 }
 
 .header-body{
@@ -94,6 +106,10 @@ ul{
     padding: 24px;
 }
 
+.body{
+    padding-bottom: 24px;
+}
+
 .title{
     font-size: 48px;
 }
@@ -111,4 +127,14 @@ ul{
 li{
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.author{
+    align-self: flex-end;
+}
+
+.quote{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
 }
