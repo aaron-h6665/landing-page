@@ -20,14 +20,19 @@ ul{
     gap: 12px;
 }
 
-.first-container{
-    background-color: #1F2937;
+.first-container,
+.second-container{
     display: flex;
     justify-content: center;
     height: 400px;
 }
 
-.first{
+.first-container{
+    background-color: #1F2937;
+}
+
+.first,
+.second{
     display: flex;
     flex-direction: column;
     flex: 0 1 1000px;
@@ -66,6 +71,29 @@ ul{
 .header-logo{
     font-size: 24px;
 }
+
+.images{
+    display: flex;
+    gap: 40px;
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    align-items: center;
+}
+
+.info-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    padding: 24px;
+}
+
 .title{
     font-size: 48px;
 }
